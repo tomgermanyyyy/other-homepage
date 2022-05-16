@@ -1,0 +1,105 @@
+baseURL: 'https://examplesite.com/'
+title: Viet Duc
+#paginate: 5
+theme: PaperMod
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Viet Duc
+  description: 'Viet Duc Blog'
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: 'January 2, 2006'
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: 'Viet Duc Blog'
+    # icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Viet Duc Blog
+    subtitle: 'Here is where I share about tech and my life.'
+    imageUrl: '/images/me.jpg'
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: 'https://github.com/tomgermanyyyy'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/vietducnguyen-hcmut/'
+    - name: twitter
+      url: 'https://twitter.com/tomgermanyyyy'
+    - name: 'facebook'
+      url: 'https://www.facebook.com/skygarden565/'
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ['title', 'permalink', 'summary', 'content']
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: '/about/about'
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: '/resume/resume'
+      weight: 10
+    - identifer: posts
+      name: Posts
+      url: '/posts/'
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: '/tags/'
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
