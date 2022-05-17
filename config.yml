@@ -41,7 +41,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Viet Duc Blog
     subtitle: 'Here is where I share about tech and my life.'
-    imageUrl: '/images/me.jpg'
+    imageUrl: 'images/me.jpg'
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -81,10 +81,6 @@ menu:
     - identifier: about
       name: About
       url: '/about/about'
-      weight: 10
-    - identifier: resume
-      name: Resume
-      url: '/resume/resume'
       weight: 10
     - identifer: posts
       name: Posts
