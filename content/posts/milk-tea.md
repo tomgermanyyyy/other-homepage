@@ -22,7 +22,7 @@ There are many regions in the world where milk tea is the default type of tea. T
 
 But milk tea is also a term for hot and cold drink recipes that combine tea with a form of milk (regular, condensed, evaporated) as well as a variety of spices. Certain countries have their own traditional versions of these recipes, which have gained popularity in America.
 
-![Milk tea](/images/milk-tea/milk-tea.jpg)
+![Milk tea](images/milk-tea/milk-tea.jpg)
 
 # 2 Health Benefits of Milk Tea:
 
